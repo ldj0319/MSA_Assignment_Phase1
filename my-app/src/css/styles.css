@@ -1,0 +1,32 @@
+.centreText {
+    text-align: center;
+    font-size: 20px;
+  }
+  
+
+  h1 {
+    font-size: 40px;
+  }
+  h2{
+    font-size: 40px;
+    color: blue;
+  }
+  .image {
+    max-width: 100%;
+    padding-top: 3px;
+    padding-bottom: 9px;
+    }
+
+.column {
+    text-align: left;
+    float: left;
+    width: 33.33%;
+    padding: 100px;
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
